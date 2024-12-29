@@ -1,0 +1,33 @@
+.employee-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+}
+
+.role-btn {
+  background-color: var(--green);
+  color: var(--white);
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+
+.role-btn:hover {
+  background-color: var(--green-active);
+  transform: scale(1.05);
+}
+
+div > label > input {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: var(--white);
+  box-shadow: 0 2px 2px var(--shadow);
+}
